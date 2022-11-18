@@ -1,0 +1,132 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+header {
+margin-top: 47px;
+margin-left: 42px;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.875px;
+  color: #17233D;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+button{
+width: 124px;                  /* comprimento do botão */
+height: 51px;                   /* altura do botão */
+font-weight: 500;               /*grossura da letra*/
+font-size: 16px;               /* tamanho da fonte */
+line-height: 24px;             /* Altura da linha*/
+color: #FFFFFF;
+background-color:#6FBF44;
+background: #6FBF44;
+border: 1px solid #4CB538;
+border-radius: 6px;
+cursor: pointer;
+}
+
+img{
+  width: 533.83px;             /* largura */
+  height: 466.9px;           /* altura */
+  margin-top: 163px;
+  margin-left: 123px; 
+  display: inline-block;       /* tudo na mesma linha */
+}
+
+div{
+  display: inline-block;        /* tudo na mesma linha */
+  margin-left: 96px;
+  width: 493px;                /*tamanho da caixa do paragrafo*/
+}
+
+h1{
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 82px;
+  color: #161A49;
+  letter-spacing: 0.596154px;
+  }
+
+  p {
+    font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  color: #4B505A;
+  letter-spacing: 0.5px;
+  margin-top: 47px;             /*distância entre o texto superior*/
+  margin-bottom: 55px;          /*distância entre o link inferior*/
+                  
+  }
+
+a {
+  cursor: pointer;
+  width: 493px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  color: #6FBF44
+  
+}
+
+
+@media screen and (max-width: 700px){
+ 
+  .link {
+display: none;
+  }
+
+  button {
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 280px; 
+  }
+
+  h1 {
+    display: inline-block;
+width: 278px;
+height: 60px;
+font-weight: 700;
+font-size: 30px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.596154px;
+  }
+
+p {
+  width: 304px;
+  height: 165px;
+  font-weight: 400;
+font-size: 18px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.5px;
+color: #4B505A;
+}
+
+a {
+  width: 112px;
+height: 27px;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 1px;
+color: #6FBF44;
+}
+
+img {
+  width: 279.92px;
+height: 268.93px;
+}
+
+}
